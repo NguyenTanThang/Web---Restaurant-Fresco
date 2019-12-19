@@ -1,0 +1,35 @@
+@media screen and (min-width: 240px) and (max-width: 767px) {
+    .nav-link {
+        display: block;
+        border-bottom: 1px solid #FFF;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-contact-info {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav-link {
+        display: block;
+        border-bottom: 1px solid #FFF;
+        margin-left: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .about-contact-info {
+        margin-top: -1000px;
+    }
+
+    .about-img {
+        margin-top: 500px !important;
+    }
+
+    .menu-item .cross-menu-item .cross-right {
+        font-size: 2em;
+        width: 15%;
+    }
+}

@@ -1,0 +1,206 @@
+:root {
+    --primary-color: #bf9e7b;
+    --grey-color: #808080;
+    --default-trans: all 0.3s ease-out 0s;
+    --main-bg-color: #141723;
+}
+
+/*************Header and Navigator************/
+#header {
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/*Navigator*/
+.navbar .container {
+    background-color: transparent;
+    border-bottom: 5px solid #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: var(--default-trans);
+    transition: var(--default-trans);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    -webkit-transition: var(--default-trans);
+    transition: var(--default-trans);
+}
+
+.navbar.colored {
+    background-color: #000;
+}
+
+.navbar .container.scrolled {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-family: 'Vollkorn', serif;
+    margin-left: 20px;
+}
+
+.nav-link.active {
+    color: var(--primary-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.navbar-toggler i {
+    color: #FFF !important;
+    font-size: 20px;
+}
+
+/*Header*/
+header {
+    padding-top: 150px;
+}
+
+.about-contact-info {
+    margin-top: -400px;
+    padding: 20px;
+    background-color: var(--main-bg-color);
+    color: #FFF !important;
+}
+
+.about-contact-info ul li {
+    margin-bottom: 20px;
+}
+
+/***************Specialities***********/
+#special {
+    background-image: url(../img/special-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.special-item {
+    margin-bottom: 20px;
+}
+
+.special-desc {
+    background-color: #FFF;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.special-desc .cross-menu-item::after {
+    background-color: var(--primary-color);
+}
+
+.special-desc .cross-left {
+    padding-right: 10px;
+    background-color: #FFF;
+}
+
+.special-desc .cross-right {
+    padding-left: 10px;
+    background-color: #FFF;
+}
+
+/******************Menu***************/
+#menu {
+    background-color: #141723;
+}
+
+.menu-section {
+    margin-bottom: 50px;
+}
+
+/*Menu header*/
+.menu-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.menu-header h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #141723;
+    color: var(--primary-color);
+}
+
+.menu-header::after {
+    content: "";
+    background-color: var(--primary-color);
+    width: 200px;
+    height: 2px;
+    margin: auto;
+    display: block;
+}
+
+/*Menu Item*/
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item .cross-menu-item::after {
+    top: 50%;
+}
+
+.menu-item .cross-menu-item .cross-left {
+    width: 50%;
+}
+
+.menu-item .cross-menu-item .cross-right {
+    font-size: 1.5em;
+    width: 20%;
+}
+
+/********************Booking**********/
+#booking {
+    background-image: url(../img/book-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.booking-form-item {
+    margin-bottom: 20px;
+}
+
+/*********Footer***********/
+#footer {
+    background-color: #141723;
+}
+
+.footer-item {
+    margin-bottom: 50px;
+}
+
+.sm-item {
+    margin-right: 20px;
+}
+
+.sm-item a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    -webkit-transition: var(--default-trans);
+    transition: var(--default-trans);
+}
+
+.sm-item a:hover {
+    background-color: #FFF;
+}
+
+.sm-item a:hover i {
+    color: var(--primary-color);
+}
+
+.sm-item a i {
+    line-height: 30px;
+    color: #FFF;
+    -webkit-transition: var(--default-trans);
+    transition: var(--default-trans);
+}
