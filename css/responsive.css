@@ -9,6 +9,10 @@
     .about-contact-info {
         margin-top: 50px;
     }
+
+    .cross-right p {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -31,5 +35,28 @@
     .menu-item .cross-menu-item .cross-right {
         font-size: 2em;
         width: 15%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .about-contact-info {
+        margin-top: -650px;
+    }
+
+    .nav-link {
+        display: block;
+        border-bottom: none;
+        margin-left: 20px;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .cross-right p {
+        font-size: 1.4rem;
+    }
+
+    .about-img {
+        margin-top: 100px !important;
     }
 }
